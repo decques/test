@@ -5,6 +5,14 @@
   -webkit-line-clamp: 3;
   overflow: hidden;
 }
+.test2 {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
 html,
 body,
 div,
