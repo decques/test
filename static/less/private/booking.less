@@ -1,0 +1,78 @@
+//booking css
+.booking-head-tip {
+	// .top-fix();
+	.border-bottom();
+	height: 40px;
+	line-height: 40px;
+	z-index: 100;
+	background: #FFF7D6;
+	text-align: center;
+
+	.time {
+		color: @red;
+	}
+}
+
+.booking-info-title {
+	padding: 11px 15px;
+	color: #9a9a9a;
+}
+
+.booking-info-list {
+	.item {
+		padding: 0 15px;
+		background-color: #fff;
+		.border-bottom();
+
+		.item-name {
+			width: 40%;
+			padding: 11px 0;
+		}
+
+		.item-content {
+			float: right;
+			width: 60%;
+			padding: 11px 0;
+			text-align: right;
+
+			.price {
+				color: @red;
+			}
+		}
+	}
+}
+
+.booking-dot-list {
+	.border-list();
+	padding: 10px 0;
+	background: #fff;
+
+	.dot-item {
+		position: relative;
+		padding: 0 15px;
+
+		&:before {
+			content: '·';
+			display: inline-block;
+			vertical-align: -2px;
+			color: #999;
+			font-size: 24px;
+		}
+	}
+}
+
+.booking-foot {
+	.bottom-fix();
+
+	.btn-green {
+		.btn();
+		width: 100%;
+		height: 45px;
+		line-height: 45px;
+		background: @green;
+		vertical-align: top;
+		color: #fff;
+		font-size: 16px;
+	}
+}
+

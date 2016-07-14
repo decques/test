@@ -105,11 +105,91 @@ i {
 }
 body {
   height: 100%;
+  background-color: #f0f0f0;
   font-size: 14px;
   line-height: 18px;
-  font-family: Arial, "Lucida Grande", Verdana, "Microsoft YaHei", hei;
+  font-family: "Microsoft YaHei";
   -webkit-user-select: none;
   -webkit-touch-callout: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-text-size-adjust: none;
+}
+.g-body {
+  height: 100%;
+  position: relative;
+}
+.border-list {
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+}
+.btn {
+  display: inline-block;
+  text-align: center;
+}
+.booking-head-tip {
+  border-bottom: 1px solid #dcdcdc;
+  height: 40px;
+  line-height: 40px;
+  z-index: 100;
+  background: #FFF7D6;
+  text-align: center;
+}
+.booking-head-tip .time {
+  color: #F03C3C;
+}
+.booking-info-title {
+  padding: 11px 15px;
+  color: #9a9a9a;
+}
+.booking-info-list .item {
+  padding: 0 15px;
+  background-color: #fff;
+  border-bottom: 1px solid #dcdcdc;
+}
+.booking-info-list .item .item-name {
+  width: 40%;
+  padding: 11px 0;
+}
+.booking-info-list .item .item-content {
+  float: right;
+  width: 60%;
+  padding: 11px 0;
+  text-align: right;
+}
+.booking-info-list .item .item-content .price {
+  color: #F03C3C;
+}
+.booking-dot-list {
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  padding: 10px 0;
+  background: #fff;
+}
+.booking-dot-list .dot-item {
+  position: relative;
+  padding: 0 15px;
+}
+.booking-dot-list .dot-item:before {
+  content: '·';
+  display: inline-block;
+  vertical-align: -2px;
+  color: #999;
+  font-size: 24px;
+}
+.booking-foot {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.booking-foot .btn-green {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  background: #00CC00;
+  vertical-align: top;
+  color: #fff;
+  font-size: 16px;
 }
