@@ -13,6 +13,7 @@ var paths = {
 gulp.task('runless', function() {
     return gulp.src(paths.source)
 	    .pipe(less())
+	    .pipe(rename('main.css'))
 	    .pipe(gulp.dest('static/css/'));
 });
 
