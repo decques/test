@@ -1,8 +1,4 @@
 node_modules/*
 .DS_Store
-
-// remove generated files
 app.config.js
-.idea/*
-.editorconfig
 *.log
