@@ -483,7 +483,7 @@ body {
   width: 95px;
   height: 95px;
   line-height: 95px;
-  background: url(../img/bg_number.png) no-repeat;
+  background: url(../img/bg-number.png) no-repeat;
   background-size: 95px auto;
   text-align: center;
   color: #fff;
@@ -514,4 +514,55 @@ body {
   border-radius: 5px;
   right: 15px;
   font-size: 15px;
+}
+.list-no-product {
+  margin-top: 175px;
+  padding-top: 85px;
+  background: url(../img/bg-no-product.png) no-repeat;
+  background-size: 70px auto;
+  background-position: center 0;
+  text-align: center;
+  color: #969696;
+}
+.error-info-box {
+  margin-top: 95px;
+  text-align: center;
+}
+.error-info-box .icon-alert {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  background: url(../img/icon-alert.png) no-repeat;
+  background-size: 55px auto;
+}
+.error-info-box .error-info {
+  padding: 22px 45px 45px 45px;
+}
+.error-info-box .error-info .error-info-big {
+  font-size: 22px;
+}
+.error-info-box .error-info .error-info-detail {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #646464;
+}
+.error-info-box .error-info .error-info-tip {
+  margin-top: 10px;
+  color: #969696;
+}
+.error-btn-box {
+  padding: 0 15px;
+}
+.error-btn-box .btn-red,
+.error-btn-box .btn-default {
+  display: block;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 17px;
 }
