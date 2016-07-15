@@ -2,3 +2,23 @@
 	.border-top();
 	.border-bottom();
 }
+
+.border-list-item {
+	.border-list-item();
+	.box-sizing(border-box);
+}
+
+.border-list-item() {
+	.border-bottom();
+	position: relative;
+	background-color: #fff;
+
+	&:last-child {
+		border-bottom-width: 0;
+	}
+
+	.icon-chevron-right {
+		.vertical-center();
+		right: 15px;
+	}
+}

@@ -1,4 +1,26 @@
-.btn {
+.btn() {
 	display: inline-block;
 	text-align: center;
+}
+
+.btn-disable() {
+	background: @gray;
+}
+
+.btn-green {
+	.btn();
+	background: @green;
+	color: #fff;
+
+}
+
+.btn-default {
+	.btn();
+
+	height: 45px;
+	line-height: 45px;
+	background: #fff;
+	border: 1px solid #dcdcdc;
+	border-radius: 4px;
+	color: #505050;
 }
