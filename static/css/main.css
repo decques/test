@@ -107,7 +107,7 @@ body {
   height: 100%;
   background-color: #f0f0f0;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 1;
   font-family: "Microsoft YaHei";
   -webkit-user-select: none;
   -webkit-touch-callout: none;
@@ -147,6 +147,12 @@ body {
   display: inline-block;
   text-align: center;
   background: #00CC00;
+  color: #fff;
+}
+.btn-red {
+  display: inline-block;
+  text-align: center;
+  background: #F03C3C;
   color: #fff;
 }
 .btn-default {
@@ -403,5 +409,109 @@ body {
 }
 .order-info-foot .btn-default {
   width: 100%;
+  font-size: 15px;
+}
+.list-head-tip {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #dcdcdc;
+  z-index: 100;
+}
+.list-head-tip .reminder {
+  padding: 9px 15px;
+  background: #FFF7D6;
+  font-size: 12px;
+  color: #bea064;
+}
+.queue-info {
+  border-top: 1px solid #dcdcdc;
+  line-height: 1;
+  background: #fff;
+}
+.queue-info:before,
+.queue-info:after {
+  content: " ";
+  display: table;
+}
+.queue-info:after {
+  clear: both;
+}
+.queue-info .info-item {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+.queue-info .info-title {
+  line-height: 1;
+  padding: 17px 0 10px 0;
+}
+.queue-info .info-title span {
+  display: inline-block;
+  width: 70px;
+  height: 20px;
+  line-height: 20px;
+  background: #f0f0f0;
+  border-radius: 10px;
+  text-align: center;
+  color: #646464;
+  font-size: 12px;
+}
+.queue-info .info-content {
+  padding-bottom: 15px;
+  font-size: 16px;
+}
+.number-list {
+  padding-top: 120px;
+}
+.number-list:before,
+.number-list:after {
+  content: " ";
+  display: table;
+}
+.number-list:after {
+  clear: both;
+}
+.number-list .item {
+  position: relative;
+  background: #fff;
+  margin-bottom: 10px;
+}
+.number-list .number {
+  float: left;
+  width: 95px;
+  height: 95px;
+  line-height: 95px;
+  background: url(../img/bg_number.png) no-repeat;
+  background-size: 95px auto;
+  text-align: center;
+  color: #fff;
+  font-size: 21px;
+}
+.number-list .info {
+  height: 95px;
+  padding: 17px 100px 5px 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.number-list .info-detail-item {
+  margin-bottom: 9px;
+  color: #646464;
+}
+.number-list .btn-red {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  width: 70px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+  right: 15px;
   font-size: 15px;
 }
