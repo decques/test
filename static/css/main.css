@@ -196,6 +196,96 @@ body {
   background-position: center center;
   background-image: url(../img/icon-position.png);
 }
+.g-mask {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.g-pop {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  position: fixed;
+  left: 40px;
+  right: 40px;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #fff;
+}
+.g-pop .g-pop-head {
+  height: 45px;
+  background: #f5f5f5;
+}
+.g-pop .g-pop-head .center {
+  line-height: 45px;
+  text-align: center;
+  font-size: 17px;
+  color: #505050;
+  font-weight: bold;
+}
+.g-pop .g-pop-body {
+  -webkit-box-sizing: borer-box;
+  -moz-box-sizing: borer-box;
+  box-sizing: borer-box;
+  max-height: 300px;
+  padding: 22px 20px;
+  overflow-y: scroll;
+  font-size: 15px;
+}
+.g-pop .g-pop-foot {
+  border-top: 1px solid #dcdcdc;
+  height: 45px;
+}
+.g-pop .g-pop-foot .btn-box {
+  position: relative;
+  font-size: 0;
+}
+.g-pop .g-pop-foot .btn-box:after {
+  content: '';
+  display: block;
+  height: 100%;
+  width: 1px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  background: #dcdcdc;
+}
+.g-pop .g-pop-foot .btn-box .btn {
+  display: inline-block;
+  width: 50%;
+  line-height: 45px;
+  font-size: 17px;
+  color: #505050;
+  text-align: center;
+}
+.g-pop .g-pop-foot .btn-box .text-red {
+  color: #F03C3C;
+}
+.g-alert {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  position: fixed;
+  left: 75px;
+  right: 75px;
+  padding: 28px 25px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  overflow: hidden;
+  line-height: 20px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
 .booking-head-tip {
   border-bottom: 1px solid #dcdcdc;
   height: 40px;
